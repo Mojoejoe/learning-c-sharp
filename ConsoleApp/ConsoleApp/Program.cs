@@ -8,9 +8,14 @@ namespace ConsoleApp {
   class Program {
     static void Main(string[] args) {
 
+      //C# Book exercise
       //GetUserData(); 
+
+      //V01 exercises 
       //ExerciseOne();
-      ExerciseTwo();
+      //ExerciseTwo();
+
+
     }
 
 
@@ -18,7 +23,7 @@ namespace ConsoleApp {
     //Korisnik, na poèetku, zadaje koliko brojeva želi da sabira.
     public static void ExerciseOne() {
     Console.WriteLine("Koliko brojeva zelite da saberete?");
-      int sumNumber = Convert.ToInt16(Console.ReadLine());         
+      int sumNumber = Convert.ToInt16(Console.ReadLine());         // da li je mozda moglo ovako ? favDay = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), Console.ReadLine()); tj kako casting da uradim u ovom slucaju?
       int sum = 0;
       for (int i = 0; i < sumNumber; i++) {
         string s = Console.ReadLine();
@@ -45,6 +50,20 @@ namespace ConsoleApp {
       Console.ReadLine();
     }
 
+    public static void ExerciseThree() {
+
+
+
+    }
+
+    public static void InputArrayAndSize(int [] niz, int length ) {
+
+
+    }
+
+
+
+    
     private static void GetUserData() {
 
       Console.WriteLine("Write your name");
